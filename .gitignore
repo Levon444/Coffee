@@ -1,0 +1,7 @@
+
+gulpfile.js
+node_modules
+source/assets
+package-lock.json
+package.json
+dest/
