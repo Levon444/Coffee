@@ -1,0 +1,75 @@
+
+body{
+    font-family:Roboto,'Times New Roman',Times,serif;
+    background-size:100%,100%;
+    margin:0;padding:0;background-repeat:no-repeat
+}
+ul{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-around;
+
+}
+.icons{
+    max-height:30px;
+    max-width:30px
+}
+.nav{
+    border-radius:0 0 30px 30px;
+    background-image:linear-gradient(to bottom,rgba(194,221,243,.747),rgba(104,158,202,.747));
+    opacity:80%
+}
+.nav_inner{
+    color:#000;
+    font-size:18pt
+}
+.nav_inner:hover{
+    color:#fff;
+    border-bottom:#000 solid 3px
+}
+.main{
+    flex-direction:row;
+    flex-wrap:nowrap;
+    justify-content:space-between
+}
+.task{
+    display:flex;
+    flex-direction:column;
+justify-content:start;
+align-items:flex-start;
+}
+.task_text{
+    margin:1%;
+    padding:1%;
+    max-width:400px;
+    max-height:300px;
+    color:#fff;
+    border:2px solid rgba(0,255,255,.856);
+    border-radius:10%
+}
+    .form{
+        max-width:400px;
+        padding:0;
+        margin:0
+    }.input_box{
+        flex-wrap:nowrap;
+        margin:auto
+    }
+    .input_box>p{
+        color:#fff;
+        font-size:16pt
+    }
+    .to_canvas{
+        max-height:50px;
+        max-width:150px;
+        color:#fff;
+        background-color:rgba(0,255,255,.774);
+        border-radius:30px;
+        margin:5%
+    }
+#canvas{
+    margin:1%;
+    background-image:url(/source/assets/canvas_grid.png);
+    border:2px solid #0ff;
+}
